@@ -1,0 +1,210 @@
+.flex-container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border:5px solid black;
+    /* gap:20px 20px;  */
+    justify-content: space-between;
+    background-color: #94b1d6;
+  }
+  
+   .flex-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    flex-direction: column;
+    } 
+  
+    
+   .about{
+    background-color: #DC143C;
+   }
+  
+   .features{
+    background-color: #FF4500;
+   }
+   .pricing{
+    background-color: #008B8B;
+   }
+   .benefits{
+  
+    background-color: #8B008B;
+   }
+   .becomeTutor{
+    background-color: #F0E68C;
+   }
+   .login{
+    background-color: #008B8B;
+   }
+  
+   .register{
+    background-color:green;
+   }
+   
+  .main{
+    display: flex;
+    border:1px solid black;
+    height: 300px;
+    justify-content: center;
+    gap:30px 20px;
+    margin-top: 20px;
+  }
+  
+   .header-benefits{
+    background-color:#d8f0c0;
+    width: 350px;
+    height: 300px;
+    justify-content: center;
+    text-shadow: #94b1d6;
+    text-align: center;
+    font-size: 16px;
+    flex-wrap: wrap;
+    font-style: italic;
+    
+    
+    } 
+    .header-benefits>a{
+      color: blueviolet;
+      font: 1em sans-serif;
+      text-shadow:#008B8B 3px 5px 10px;
+      flex-wrap: wrap;
+      
+  
+    }
+  
+    .header-benefits>p{
+      
+      margin: 10px;
+      
+  
+    }
+  
+  
+  
+  
+    .header-features{
+      background-color:#d8f0c0;
+      width: 350px;
+      height: 300px;
+      justify-content: center;
+      text-shadow: #94b1d6;
+      text-align: center;
+      font-size: 16px;
+      flex-wrap: wrap;
+      
+      
+      } 
+      .header-features>a{
+        color: blueviolet;
+        font: 1em sans-serif;
+        text-shadow:#008B8B 3px 5px 10px;
+        flex-wrap: wrap;
+        
+    
+      }
+    
+      .header-features>p{
+        
+        margin: 10px;
+        
+    
+      }
+  
+  
+      .header-pricing{
+        background-color:#d8f0c0;
+        
+        width: 350px;
+        height: 300px;
+        justify-content: center;
+        text-shadow: #94b1d6;
+        text-align: center;
+        font-size: 16px;
+        flex-wrap: wrap;
+        
+        
+        } 
+        .header-pricing>a{
+          color: blueviolet;
+          font: 1em sans-serif;
+          text-shadow:#008B8B 3px 5px 10px;
+          flex-wrap: wrap;
+          
+      
+        }
+      
+        .header-pricing>p{
+          
+          margin: 10px;
+          
+      
+        }
+  
+        .header-tutoring{
+          background-color:#d8f0c0;
+          
+          width: 350px;
+          height: 300px;
+          justify-content: center;
+          text-shadow: #94b1d6;
+          text-align: center;
+          font-size: 16px;
+          flex-wrap: wrap;
+          
+          
+          } 
+          .header-tutoring>a{
+            color: blueviolet;
+            font: 1em sans-serif;
+            text-shadow:#008B8B 3px 5px 10px;
+            flex-wrap: wrap;
+            
+        
+          }
+        
+          .header-tutoring>p{
+            
+            margin: 10px;
+            
+        
+          }
+    
+    
+  
+   .by-footer{
+    background-color: #FFFACD;
+    display: flex;
+    height: 230px;
+    justify-content: center;
+    font-size: 60px;
+   }
+  
+   .canadian-dollar{
+    background-color: #FF4500;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    text-shadow: 10px 10px 20px;
+   }
+
+   .price-head {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    color:violet;
+   }
+
+   .price-info {
+    background-color: olive;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+   }
+
+   .about-main {
+    color: blue;
+   }
